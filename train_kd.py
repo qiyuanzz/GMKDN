@@ -26,7 +26,7 @@ parser = argparse.ArgumentParser(
     description='Configurations for classification Analysis on TCGA-BRCA Data.')
 
 ### Checkpoint + Misc. Pathing Parameters
-parser.add_argument('--data_root_dir',   type=str, default=r'/home/qiyuan/nvme0n1/tcga_brca/uni_features/pt_files',
+parser.add_argument('--data_root_dir',   type=str, default=r'./pt_files',
                     help='Data directory to WSI features (extracted via CLAM')
 parser.add_argument('--seed', 			 type=int, default=1,
                     help='Random seed for reproducible experiment (default: 1)') 
