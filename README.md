@@ -17,7 +17,6 @@ Python 3.9
 
 ```
 # train with 5-fold cross validation and test
-python train_kd.py --weighted_sample --early_stopping
-python train_kd.py --stage 'test' --weighted_sample --early_stopping
+./run.sh
 ```
 
