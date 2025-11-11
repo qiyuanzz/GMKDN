@@ -21,7 +21,6 @@ The framework consists of:
 
 
 
-<<<<<<< HEAD
 ```
 # train with 5-fold cross validation and test
 ./run.sh
@@ -42,7 +41,6 @@ conda env create -f environment.yaml
 
 # Activate the environment
 conda activate cu118
->>>>>>> edc29d2 (docs: enhance README with detailed framework overview and dataset preparation instructions)
 ```
 
 ## Dataset Preparation
